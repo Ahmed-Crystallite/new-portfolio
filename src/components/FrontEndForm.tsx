@@ -126,7 +126,7 @@ const FrontEndForm: React.FC<FrontEndFormProps> = ({ label = false, css = "" }) 
                 onSubmit={form.handleSubmit(handleSubmit)}
                 className={`grid grid-cols-1 gap-5 ${css}`}
             >
-                <div className="grid grid-cols-2 gap-x-5 items-center">
+                <div className="grid sm:grid-cols-2 grid-cols-1 gap-x-5 items-center">
                     <FormField
                         control={form.control}
                         name="name"
@@ -211,7 +211,7 @@ const FrontEndForm: React.FC<FrontEndFormProps> = ({ label = false, css = "" }) 
                 <button
                     type="submit"
                     disabled={loading}
-                    className="relative z-10 md:w-[230px] w-[190px] md:h-[70px] h-[60px] flex justify-center items-center bg-[#0e1538] overflow-hidden rounded-[10px] cursor-pointer group"
+                    className="relative z-10 lg:w-[230px] w-full md:h-[70px] h-[60px] flex justify-center items-center bg-[#0e1538] overflow-hidden rounded-[10px] cursor-pointer group"
                 >
                     <span className="absolute z-10 inset-0 w-full h-[90%] m-auto bg-[#0e1538] rounded-[10px]" />
                     <span className="absolute -z-10 inset-0 w-full h-full transition-all ease-in-out duration-500 scale-0 group-hover:scale-100 group-hover:bg-gradient-to-b from-[#00ccff] to-[#d400d4] animate-rotate" />

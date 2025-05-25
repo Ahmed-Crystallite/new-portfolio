@@ -15,10 +15,10 @@ export default function Contact() {
                             <span className="h-[3px] sm:w-[4%] w-[7%] bg-fuchsia-600 absolute top-[20px] xl:right-[39%] lg:right-[36%] md:right-[34%] sm:right-[30%] right-[17%] rounded"></span>
                         </div>
                     </div>
-                    <div className="grid grid-cols-2 items-center gap-x-5 gap-y-8 md:pt-[60px] pt-[50px]">
+                    <div className="grid lg:grid-cols-2 grid-cols-1 items-center gap-x-5 gap-y-8 md:pt-[60px] pt-[50px]">
                         <div>
-                            <h2 className="md:text-[35px] text-xl leading-tight font-medium mb-3">Let&apos;s Bring Your Vision to Life</h2>
-                            <p className="xl:text-lg md:text-base text-sm text-primary leading-relaxed font-medium">Have a project in mind? I'd love to hear about it. Whether you're starting something new or need support with an existing idea, just fill out the form with a few key details. The more information you provide, the better I can understand your needs and offer the right support. I aim to respond within 1-2 business days. Let&apos;s create something great together!</p>
+                            <h2 className="xl:text-[35px] md:text-[30px] text-xl leading-tight font-medium mb-3">Let&apos;s Bring Your Vision to Life</h2>
+                            <p className="2xl:text-lg md:text-base text-sm text-primary leading-relaxed font-medium max-w-[600px]">Have a project in mind? I'd love to hear about it. Whether you're starting something new or need support with an existing idea, just fill out the form with a few key details. The more information you provide, the better I can understand your needs and offer the right support. I aim to respond within 1-2 business days. Let&apos;s create something great together!</p>
                         </div>
                         <FrontEndForm />
                     </div>

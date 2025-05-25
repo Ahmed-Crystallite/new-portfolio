@@ -14,6 +14,7 @@ export const DATA = {
         name: "GitHub",
         url: "https://github.com/Ahmed-Crystallite",
         icon: Icons.github,
+        external: "_blank",
 
         navbar: true,
       },
@@ -21,6 +22,7 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://pk.linkedin.com/in/ahmed-raza-96027a250",
         icon: Icons.linkedin,
+        external: "_blank",
 
         navbar: true,
       },
@@ -35,7 +37,7 @@ export const DATA = {
         name: "Whatsapp",
         url: "https://wa.me/923009280169",
         icon: Icons.whatsapp,
-        target: "_blank",
+        external: "_blank",
 
         navbar: true,
       },

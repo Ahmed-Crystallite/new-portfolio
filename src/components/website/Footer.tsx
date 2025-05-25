@@ -4,11 +4,11 @@ import React from "react"
 export default function Footer() {
     return (
         <footer>
-            <div className="relative z-10 overflow-hidden py-[30px]">
+            <div className="relative z-10 overflow-hidden sm:py-[30px] py-[20px]">
                 <span className="w-full h-[2px] bg-accent absolute inset-0"></span>
                 <div className="container">
-                    <div className="flex justify-between items-center gap-5">
-                        <div className="flex items-center gap-x-8">
+                    <div className="flex flex-wrap lg:justify-between justify-center items-center gap-5">
+                        <div className="flex flex-wrap justify-center gap-y-5 items-center gap-x-8">
                             <a href="tel:+923009280169" className="flex items-center gap-x-2 text-sm leading-tight">
                                 <Phone className="size-4"/>
                                 <span>+92 300 9280169</span>
@@ -22,7 +22,7 @@ export default function Footer() {
                                 <span>Location</span>
                             </a>
                         </div>
-                        <p className="text-base leading-tight font-normal">© 2025 Developer Ahmed Raza | All Rights Reserved</p>
+                        <p className="sm:text-base text-[13px] text-center leading-tight font-normal">© 2025 Developer Ahmed Raza | All Rights Reserved</p>
                     </div>
                 </div>
             </div>
