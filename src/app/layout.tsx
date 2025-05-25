@@ -7,6 +7,7 @@ import { Suspense } from "react";
 import { LayoutBg, Navbar } from "@/components";
 import LoadingScreen from "@/components/LoadingScreen";
 import CursorFollower from "@/components/CursorFollower";
+import { Toaster } from "@/components/ui/sonner";
 
 const satisfy = Satisfy({
   variable: "--font-satisfy",
@@ -52,6 +53,7 @@ export default function RootLayout({
                 <Navbar />
                 {children}
               </main>
+              <Toaster />
             </Suspense>
           </TooltipProvider>
         </NextThemesProvider>

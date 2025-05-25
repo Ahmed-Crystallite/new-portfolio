@@ -5,6 +5,8 @@ const Navbar = dynamic(() => import("./website/Navbar"));
 const About = dynamic(() => import("./website/About"));
 const Services = dynamic(() => import("./website/Services"));
 const Skills = dynamic(() => import("./website/Skills"));
+const Contact = dynamic(() => import("./website/Contact"));
+const Footer = dynamic(() => import("./website/Footer"));
 // UI Client Componets
 const LayoutBg = dynamic(() => import("./LayoutBG"));
 const CursorFollower = dynamic(() => import("./CursorFollower"));
@@ -24,9 +26,6 @@ const Button = dynamic(() => import("./ui/button").then((mod) => mod.Button));
 const Separator = dynamic(() =>
   import("./ui/separator").then((mod) => mod.Separator)
 );
-const TextFlip = dynamic(() =>
-  import("./ui/text-flip").then((mod) => mod.TextFlip)
-);
 const Tooltip = dynamic(() =>
   import("./ui/tooltip").then((mod) => mod.Tooltip)
 );
@@ -45,6 +44,9 @@ export {
   About,
   Services,
   Skills,
+  Contact,
+  Footer,
+  // UI Components
   CursorFollower,
   LoadingScreen,
   LottieAnimations,
@@ -54,7 +56,6 @@ export {
   Particles,
   Button,
   Separator,
-  TextFlip,
   Tooltip,
   TooltipContent,
   TooltipTrigger,
