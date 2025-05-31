@@ -4,7 +4,7 @@ import "./globals.css";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Suspense } from "react";
-import { LayoutBg, Navbar } from "@/components";
+import { Contact, Footer, LayoutBg, Navbar } from "@/components";
 import LoadingScreen from "@/components/LoadingScreen";
 import CursorFollower from "@/components/CursorFollower";
 import { Toaster } from "@/components/ui/sonner";
@@ -52,6 +52,8 @@ export default function RootLayout({
                 <CursorFollower />
                 <Navbar />
                 {children}
+                <Contact/>
+                <Footer/>
               </main>
               <Toaster />
             </Suspense>
