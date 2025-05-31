@@ -1,12 +1,12 @@
 import dynamic from "next/dynamic";
 // Website Client Componets
-const Hero = dynamic(() => import("./website/Hero"));
-const Navbar = dynamic(() => import("./website/Navbar"));
-const About = dynamic(() => import("./website/About"));
-const Services = dynamic(() => import("./website/Services"));
-const Skills = dynamic(() => import("./website/Skills"));
-const Contact = dynamic(() => import("./website/Contact"));
-const Footer = dynamic(() => import("./website/Footer"));
+const Hero = dynamic(() => import("./sections/Hero"));
+const Navbar = dynamic(() => import("./sections/Navbar"));
+const About = dynamic(() => import("./sections/About"));
+const Services = dynamic(() => import("./sections/Services"));
+const Skills = dynamic(() => import("./sections/Skills"));
+const Contact = dynamic(() => import("./sections/Contact"));
+const Footer = dynamic(() => import("./sections/Footer"));
 // UI Client Componets
 const LayoutBg = dynamic(() => import("./LayoutBG"));
 const CursorFollower = dynamic(() => import("./CursorFollower"));

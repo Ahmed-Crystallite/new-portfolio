@@ -1,4 +1,4 @@
-import { AngularjsIcon, BootstrapIcon, CSS3Icon, FramerIcon, GitIcon, HTML5Icon, JavascriptES6Icon, MongoDbIcon, NextjsIcon, ReactjsIcon, ReactRouterIcon, SassIcon, TailwindCssIcon, VitejsIcon, VueJsIcon } from "../SvgRenderer";
+import { AngularjsIcon, BootstrapIcon, ConvexIcon, CSS3Icon, FramerIcon, GitIcon, HTML5Icon, JavascriptES6Icon, MongoDbIcon, NextjsIcon, ReactjsIcon, ReactRouterIcon, SassIcon, TailwindCssIcon, VitejsIcon, VueJsIcon } from "../SvgRenderer";
 
 export default function Skills() {
 
@@ -18,6 +18,7 @@ export default function Skills() {
     framer: 'hover:shadow-[0_0_35px_#BB4B96]',
     vite: 'hover:shadow-[0_0_35px_#646CFF]',
     next: 'hover:shadow-[0_0_35px_#ffffff]',
+    convex: 'hover:shadow-[0_0_35px_#f4be4f]',
   };
 
   const skillsData = [
@@ -36,6 +37,7 @@ export default function Skills() {
     { icon: <MongoDbIcon />, glow: glowColors.mongo },
     { icon: <GitIcon />, glow: glowColors.git },
     { icon: <FramerIcon />, glow: glowColors.framer },
+    { icon: <ConvexIcon />, glow: glowColors.convex },
   ];
 
   return (

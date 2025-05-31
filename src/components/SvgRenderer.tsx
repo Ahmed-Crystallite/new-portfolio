@@ -57,42 +57,42 @@ export const VitejsIcon = (props: {}) => {
     const uniqueId2 = `vite-gradient-2`;
     return (
         <svg viewBox="0 0 128 128" {...props}>
-    <defs>
-      <linearGradient
-        id={uniqueId1}
-        x1={6}
-        x2={235}
-        y1={33}
-        y2={344}
-        gradientTransform="translate(0 .937)scale(.3122)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#41d1ff" />
-        <stop offset={1} stopColor="#bd34fe" />
-      </linearGradient>
-      <linearGradient
-        id={uniqueId2}
-        x1={194.651}
-        x2={236.076}
-        y1={8.818}
-        y2={292.989}
-        gradientTransform="translate(0 .937)scale(.3122)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop offset={0} stopColor="#ffea83" />
-        <stop offset={0.083} stopColor="#ffdd35" />
-        <stop offset={1} stopColor="#ffa800" />
-      </linearGradient>
-    </defs>
-    <path
-      fill={`url(#${uniqueId1})`}
-      d="M124.766 19.52 67.324 122.238c-1.187 2.121-4.234 2.133-5.437.024L3.305 19.532c-1.313-2.302.652-5.087 3.261-4.622L64.07 25.187a3.1 3.1 0 0 0 1.11 0l56.3-10.261c2.598-.473 4.575 2.289 3.286 4.594m0 0"
-    />
-    <path
-      fill={`url(#${uniqueId2})`}
-      d="M91.46 1.43 48.954 9.758a1.56 1.56 0 0 0-1.258 1.437l-2.617 44.168a1.563 1.563 0 0 0 1.91 1.614l11.836-2.735a1.562 1.562 0 0 1 1.88 1.836l-3.517 17.219a1.562 1.562 0 0 0 1.985 1.805l7.308-2.223c1.133-.344 2.223.652 1.985 1.812l-5.59 27.047c-.348 1.692 1.902 2.614 2.84 1.164l.625-.968 34.64-69.13c.582-1.16-.421-2.48-1.69-2.234l-12.185 2.352a1.558 1.558 0 0 1-1.793-1.965l7.95-27.562A1.56 1.56 0 0 0 91.46 1.43m0 0"
-    />
-  </svg>
+            <defs>
+                <linearGradient
+                    id={uniqueId1}
+                    x1={6}
+                    x2={235}
+                    y1={33}
+                    y2={344}
+                    gradientTransform="translate(0 .937)scale(.3122)"
+                    gradientUnits="userSpaceOnUse"
+                >
+                    <stop offset={0} stopColor="#41d1ff" />
+                    <stop offset={1} stopColor="#bd34fe" />
+                </linearGradient>
+                <linearGradient
+                    id={uniqueId2}
+                    x1={194.651}
+                    x2={236.076}
+                    y1={8.818}
+                    y2={292.989}
+                    gradientTransform="translate(0 .937)scale(.3122)"
+                    gradientUnits="userSpaceOnUse"
+                >
+                    <stop offset={0} stopColor="#ffea83" />
+                    <stop offset={0.083} stopColor="#ffdd35" />
+                    <stop offset={1} stopColor="#ffa800" />
+                </linearGradient>
+            </defs>
+            <path
+                fill={`url(#${uniqueId1})`}
+                d="M124.766 19.52 67.324 122.238c-1.187 2.121-4.234 2.133-5.437.024L3.305 19.532c-1.313-2.302.652-5.087 3.261-4.622L64.07 25.187a3.1 3.1 0 0 0 1.11 0l56.3-10.261c2.598-.473 4.575 2.289 3.286 4.594m0 0"
+            />
+            <path
+                fill={`url(#${uniqueId2})`}
+                d="M91.46 1.43 48.954 9.758a1.56 1.56 0 0 0-1.258 1.437l-2.617 44.168a1.563 1.563 0 0 0 1.91 1.614l11.836-2.735a1.562 1.562 0 0 1 1.88 1.836l-3.517 17.219a1.562 1.562 0 0 0 1.985 1.805l7.308-2.223c1.133-.344 2.223.652 1.985 1.812l-5.59 27.047c-.348 1.692 1.902 2.614 2.84 1.164l.625-.968 34.64-69.13c.582-1.16-.421-2.48-1.69-2.234l-12.185 2.352a1.558 1.558 0 0 1-1.793-1.965l7.95-27.562A1.56 1.56 0 0 0 91.46 1.43m0 0"
+            />
+        </svg>
     );
 }
 export const NextjsIcon = (props: {}) => {
@@ -100,39 +100,39 @@ export const NextjsIcon = (props: {}) => {
     const nextId2 = `next-gradient-2`;
     return (
         <svg viewBox="0 0 128 128" {...props}>
-    <circle cx={64} cy={64} r={64} />
-    <path
-      fill={`url(#${nextId1})`}
-      d="M106.317 112.014 49.167 38.4H38.4v51.179h8.614v-40.24l52.54 67.884a64 64 0 0 0 6.763-5.209"
-    />
-    <path fill={`url(#${nextId2})`} d="M81.778 38.4h8.533v51.2h-8.533z" />
-    <defs>
-      <linearGradient
-        id={nextId1}
-        x1={109}
-        x2={144.5}
-        y1={116.5}
-        y2={160.5}
-        gradientTransform="scale(.71111)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stopColor="#fff" />
-        <stop offset={1} stopColor="#fff" stopOpacity={0} />
-      </linearGradient>
-      <linearGradient
-        id={nextId2}
-        x1={121}
-        x2={120.799}
-        y1={54}
-        y2={106.875}
-        gradientTransform="scale(.71111)"
-        gradientUnits="userSpaceOnUse"
-      >
-        <stop stopColor="#fff" />
-        <stop offset={1} stopColor="#fff" stopOpacity={0} />
-      </linearGradient>
-    </defs>
-  </svg>
+            <circle cx={64} cy={64} r={64} />
+            <path
+                fill={`url(#${nextId1})`}
+                d="M106.317 112.014 49.167 38.4H38.4v51.179h8.614v-40.24l52.54 67.884a64 64 0 0 0 6.763-5.209"
+            />
+            <path fill={`url(#${nextId2})`} d="M81.778 38.4h8.533v51.2h-8.533z" />
+            <defs>
+                <linearGradient
+                    id={nextId1}
+                    x1={109}
+                    x2={144.5}
+                    y1={116.5}
+                    y2={160.5}
+                    gradientTransform="scale(.71111)"
+                    gradientUnits="userSpaceOnUse"
+                >
+                    <stop stopColor="#fff" />
+                    <stop offset={1} stopColor="#fff" stopOpacity={0} />
+                </linearGradient>
+                <linearGradient
+                    id={nextId2}
+                    x1={121}
+                    x2={120.799}
+                    y1={54}
+                    y2={106.875}
+                    gradientTransform="scale(.71111)"
+                    gradientUnits="userSpaceOnUse"
+                >
+                    <stop stopColor="#fff" />
+                    <stop offset={1} stopColor="#fff" stopOpacity={0} />
+                </linearGradient>
+            </defs>
+        </svg>
     );
 }
 export const MongoDbIcon = (props: {}) => {
@@ -158,5 +158,26 @@ export const AngularjsIcon = (props: {}) => {
 export const VueJsIcon = (props: {}) => {
     return (
         <svg viewBox="0 0 128 128" {...props}><path d="m0 8.934 49.854.158 14.167 24.47 14.432-24.47L128 8.935l-63.834 110.14zm126.98.637-24.36.02-38.476 66.053L25.691 9.592.942 9.572l63.211 107.89zm-25.149-.008-22.745.168-15.053 24.647L49.216 9.73l-22.794-.168 37.731 64.476zm-75.834-.17 23.002.009m-23.002-.01 23.002.01" fill="none" /><path d="m25.997 9.393 23.002.009L64.035 34.36 79.018 9.404 102 9.398 64.15 75.053z" fill="#35495e" /><path d="m.91 9.569 25.067-.172 38.15 65.659L101.98 9.401l25.11.026-62.966 108.06z" fill="#41b883" /></svg>
+    );
+}
+export const ConvexIcon = (props: {}) => {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width={126}
+            height={20}
+            fill="#ffffff"
+            {...props}
+        >
+            <g clipPath="url(#a)">
+                <path d="M3.185 17.467Q.358 14.938.358 10 .357 5.063 3.243 2.533 6.125.004 11.127.003q2.075-.001 3.672.305a11.6 11.6 0 0 1 3.055 1.034v5.339q-2.269-1.133-5.15-1.133-2.54 0-3.749 1.01Q7.744 7.57 7.745 10q-.001 2.35 1.192 3.4 1.19 1.054 3.77 1.053 2.73 0 5.19-1.335v5.585q-2.73 1.295-6.807 1.294c-3.388 0-6.02-.844-7.905-2.53m16.353-7.47q0-4.897 2.653-7.448 2.654-2.55 8-2.549c3.59 0 6.273.85 8.058 2.549q2.67 2.549 2.671 7.448 0 9.996-10.73 9.997-10.652.004-10.652-9.997M32.75 13.4q.786-1.055.786-3.4 0-2.307-.786-3.38-.788-1.073-2.56-1.073-1.73.002-2.5 1.073-.768 1.073-.768 3.38 0 2.35.768 3.4.768 1.054 2.5 1.053 1.77-.002 2.56-1.053M42.603.404h6.767l.193 1.458q1.116-.81 2.845-1.336A12.3 12.3 0 0 1 55.985 0q3.422 0 5 1.782c1.051 1.188 1.576 3.02 1.576 5.505v12.305h-7.228V8.055q0-1.296-.558-1.862c-.372-.38-.995-.565-1.867-.565q-.806 0-1.653.385a4.6 4.6 0 0 0-1.424.992v12.587h-7.228zm19.979.001h7.536l3.461 11.252L77.041.405h7.536l-7.192 19.187H69.77zm24.27 17.537c-2.171-1.714-3.187-4.69-3.187-7.903 0-3.13.808-5.708 2.654-7.49S90.976 0 94.526 0q4.898 0 7.71 2.388 2.81 2.39 2.811 6.517v3.362H91.302c.342.998.775 1.72 1.839 2.166q1.598.67 4.45.668 1.703 0 3.47-.282c.415-.068 1.098-.174 1.458-.254v4.665c-1.796.513-4.19.77-6.89.77-3.632-.003-6.605-.343-8.777-2.058m10.601-9.804c0-.95-1.04-2.995-3.129-2.995-1.884 0-3.129 2.013-3.129 2.995z" />
+                <path d="M110.723 9.836 103.955.405h7.844l13.843 19.187h-7.92l-3.077-4.292-3.078 4.292h-7.883zm6.825-9.431h7.808l-5.993 8.4-3.965-5.383z" />
+            </g>
+            <defs>
+                <clipPath id="a">
+                    <path d="M0 0h126v20H0z" />
+                </clipPath>
+            </defs>
+        </svg>
     );
 }
