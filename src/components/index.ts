@@ -5,6 +5,7 @@ const Navbar = dynamic(() => import("./sections/Navbar"));
 const About = dynamic(() => import("./sections/About"));
 const Services = dynamic(() => import("./sections/Services"));
 const Skills = dynamic(() => import("./sections/Skills"));
+const Ratings = dynamic(() => import("./sections/Ratings"));
 const Contact = dynamic(() => import("./sections/Contact"));
 const Footer = dynamic(() => import("./sections/Footer"));
 // UI Client Componets
@@ -44,6 +45,7 @@ export {
   About,
   Services,
   Skills,
+  Ratings,
   Contact,
   Footer,
   // UI Components

@@ -10,14 +10,21 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { ThreeDMarquee } from "../ui/3d-marquee";
 
 // Media
-import Website1 from "media/projects/websites/1.png"
-import Website2 from "media/projects/websites/2.png"
-import Website3 from "media/projects/websites/3.png"
-import Website4 from "media/projects/websites/4.png"
-import Website5 from "media/projects/websites/5.png"
-import Website6 from "media/projects/websites/6.png"
-import Website7 from "media/projects/websites/7.png"
-import Website8 from "media/projects/websites/8.png"
+import Website1 from "media/projects/websites/2.png"
+import Website2 from "media/projects/websites/3.png"
+import Website3 from "media/projects/websites/4.png"
+import Website4 from "media/projects/websites/5.png"
+import Website5 from "media/projects/websites/6.png"
+import Website6 from "media/projects/websites/7.png"
+import Website7 from "media/projects/websites/8.png"
+import Website8 from "media/projects/websites/9.png"
+import Website9 from "media/projects/websites/10.png"
+import Website10 from "media/projects/websites/11.png"
+import Website11 from "media/projects/websites/12.png"
+import Website12 from "media/projects/websites/13.png"
+import Website13 from "media/projects/websites/14.png"
+import Website14 from "media/projects/websites/15.png"
+import Website15 from "media/projects/websites/16.png"
 import Ecommerce1 from "media/projects/ecommerce/1.png"
 import Ecommerce2 from "media/projects/ecommerce/2.png"
 import Lp1 from "media/projects/landing-pages/1.png"
@@ -165,6 +172,16 @@ const projects: ProjectData = {
       "https://baby-siri.netlify.app/",
     ],
     [
+      Website9,
+      ["HTML5", "CSS3", "Javascript ES6"],
+      "https://baby-siri.netlify.app/",
+    ],
+    [
+      Website10,
+      ["HTML5", "CSS3", "Javascript ES6"],
+      "https://baby-siri.netlify.app/",
+    ],
+    [
       Lp9,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
       "https://www.bookwritingcube.com/audio-book-production-services/",
@@ -243,16 +260,11 @@ const projects: ProjectData = {
   website: [
     [
       Website1,
-      ["Nextjs 13", "Bootstrap 5", "Jquery"],
-      "https://crystallitedigital.com/",
-    ],
-    [
-      Website2,
       ["Nextjs 14", "Tailwind Css", "Shadcn Ui"],
       "https://infinityanimations.com/",
     ],
     [
-      Website3,
+      Website2,
       [
         "HTML 5",
         "CSS 3",
@@ -265,17 +277,17 @@ const projects: ProjectData = {
       "https://portfolio.mhrizwan.com/web-apps/001/",
     ],
     [
-      Website4,
+      Website3,
       ["HTML 5", "Tailwind CSS", "Javascript", "Embla"],
       "https://portfolio.mhrizwan.com/websites/001/",
     ],
     [
-      Website5,
+      Website4,
       ["Nextjs 13", "Tailwind CSS", "Jquery", "Javascript", "Embla"],
       "https://bestsellingpublisher.com/",
     ],
     [
-      Website6,
+      Website5,
       [
         "Nextjs 14",
         "Tailwind CSS",
@@ -284,17 +296,62 @@ const projects: ProjectData = {
         "Slick",
         "Material Tailwind",
       ],
-      "https://webiste-design-hub.vercel.app/",
+      "",
     ],
     [
-      Website7,
+      Website6,
       ["Nextjs 14", "Tailwind CSS"],
       "https://www.mini-investments.net/",
+    ],
+    [
+      Website8,
+      ["Nextjs 15", "React 19", "Tailwind CSS","Aceternity Ui" ,"Shadcn Ui"],
+      "https://infiniti-solutions.vercel.app/",
+    ],
+    [
+      Website9,
+      ["Nextjs 15", "React 19" , "Next Auth" , "Tailwind CSS", "Shadcn Ui", "Typescript","Quill","React Hook Form","Convex Dev"],
+      "https://communication-app-neon.vercel.app/",
+    ],
+    [
+      Website10,
+      ["React 19", "Vite 6", "Tailwind CSS","Shadcn Ui"],
+      "https://macrolight-trading-reactjs.vercel.app/",
+    ],
+    [
+      Website11,
+      ["Nextjs 14","SCSS","Shadcn Ui","Embla"],
+      "https://cloudstudios.us/",
+    ],
+    [
+      Website12,
+      ["Nextjs 15","React 19","Tailwind CSS","Shadcn Ui"],
+      "https://publishing-services.vercel.app/",
+    ],
+    [
+      Website13,
+      ["Nextjs 15","SCSS","Shadcn Ui","Embla"],
+      "https://www.bookwriting.us/",
+    ],
+    [
+      Website14,
+      ["Nextjs 14", "Tailwind CSS","Shadcn Ui","Embla"],
+      "https://seo-company.us/",
+    ],
+    [
+      Website15,
+      ["Nextjs 14",
+        "Tailwind CSS",
+        "Javascript",
+        "Swiper",
+        "Slick",
+        "Material Tailwind",],
+      "https://www.creativelogodesigns.us/",
     ],
   ],
   virtualAssistant: [
     [
-      Website8,
+      Website7,
       ["HTML5", "CSS3", "Javascript ES6"],
       "https://baby-siri.netlify.app/",
     ],
@@ -303,22 +360,22 @@ const projects: ProjectData = {
     [
       Lp1,
       ["HTML 5", "CSS 3", "Jquery", "Slick"],
-      "https://jumpto1.com/children-book-illustration-services/",
+      "https://jumpto1.us/children-book-illustration-services/",
     ],
     [
       Lp2,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Embla"],
-      "https://jumpto1.com/ios-app-development-services/",
+      "https://jumpto1.us/ios-app-development-services/",
     ],
     [
       Lp3,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://jumpto1.com/page-view/",
+      "",
     ],
     [
       Lp4,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://jumpto1.com/page-view-1/",
+      "",
     ],
     [
       Lp5,
@@ -328,32 +385,32 @@ const projects: ProjectData = {
     [
       Lp6,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://www.bookwritingcube.com/children-book-illustrator/",
+      "https://www.bookwritingcube.us/children-book-illustrator/",
     ],
     [
       Lp7,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://www.bookpublishingservice.us/",
+      "",
     ],
     [
       Lp8,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://www.bookwritingcube.com/amazon-book-publishing-services/",
+      "https://www.bookwritingcube.us/amazon-book-publishing-services/",
     ],
     [
       Lp9,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://www.bookwritingcube.com/audio-book-production-services/",
+      "https://www.bookwritingcube.us/audio-book-production-services/",
     ],
     [
       Lp10,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://www.bookwritingcube.com/lp/book-publishing-services/",
+      "https://www.bookwritingcube.us/lp/book-publishing-services/",
     ],
     [
       Lp11,
       ["HTML 5", "CSS 3", "Bootstrap 5", "Jquery", "Slick"],
-      "https://www.bookwritingcube.com/marketing-lp2/",
+      "https://www.bookwritingcube.us/marketing-lp2/",
     ],
     [
       Lp12,
@@ -398,44 +455,44 @@ const projects: ProjectData = {
         "Reactjs 18",
         "Typescript",
       ],
-      "https://ecommerce-nextjs-sandy-one.vercel.app/",
+      "",
     ],
   ],
   emailTemplates: [
     [
       EmailTemplates1,
       ["HTML 5", "CSS3"],
-      "https://farooqaziz.netlify.app/work/jumpto1-email-template-helloween/",
+      "",
     ],
     [
       EmailTemplates2,
       ["HTML 5", "CSS3"],
-      "https://farooqaziz.netlify.app/work/infinityanimations-email-template-helloween/",
+      "",
     ],
     [
       EmailTemplates3,
       ["HTML 5", "CSS3"],
-      "https://farooqaziz.netlify.app/work/h&w-email-template-2/",
+      "",
     ],
     [
       EmailTemplates4,
       ["HTML 5", "CSS3"],
-      "https://farooqaziz.netlify.app/work/h&w-email-template-1/",
+      "",
     ],
     [
       EmailTemplates5,
       ["HTML 5", "CSS3"],
-      "https://farooqaziz.netlify.app/work/bitswits-email-template/",
+      "",
     ],
     [
       EmailTemplates6,
       ["HTML 5", "CSS3"],
-      "https://farooqaziz.netlify.app/work/infinityanimations-email-template-thankyou/",
+      "",
     ],
     [
       EmailTemplates7,
       ["HTML 5", "CSS3"],
-      "https://farooqaziz.netlify.app/work/infinityanimations-email-template/",
+      "",
     ],
   ],
 };
@@ -499,6 +556,7 @@ const ProjectCard = () => {
                             </span>
                           ))}
                         </div>
+                        {link && (
                         <Link href={link} target="_blank" rel="noopener noreferrer" className="shrink-0">
                           <Image
                             src={Eye}
@@ -508,6 +566,7 @@ const ProjectCard = () => {
                             className="transition-transform transform hover:scale-110"
                           />
                         </Link>
+                      )}
                       </div>
                     </div>
                   ))}
